@@ -1,0 +1,17 @@
+body{
+    background: #ceecf3;
+    color: rgb(0, 1, 1);
+}
+
+.bg-theme{
+    background: #cdb9b9;
+}
+.project-image {
+    width: 100%;
+    height: 210px;
+}
+
+.card-project:hover{
+    border: 1px solid #000;
+    cursor: pointer;
+}

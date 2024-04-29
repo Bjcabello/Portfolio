@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="row my-4 text-center">
+    <h1 class="fw-bold">Posts{{ post.id }}</h1>
+
+    <h2 class="fw-bold">{{ post.title }}</h2>
+    <h5 class="my-2 text-muted">{{ post.date|date:'d/m/Y' }}</h5>
+    <img src="{{ post.image.url }}" alt="{{ post.title }}" class="img-fluid">
+
+    <div class="text-start">
+        <p class="text-justify">{{ post.description|safe }}</p>
+    </div>
+</div>
+
+
+
+
+
+{% endblock  %}
